@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>你是老色批吗？</title>
+    <style>
+        body{text-align:center;}
+        button{font-weight:900;width:250px;height: 75px;font-size:40px;border:none;}
+        a{text-decoration:none;}
+    </style>
+</head>
+
+<body>
+    <h2 style="font-size:60px;font-weight:900">你是老色批吗?</h2>
+    <div>
+        <button onclick="yes()" style="background-color: #000000;"><a title="好色啊，我就看这些的" href="javascript:void()" style="color: #FFFFFF;">我是老色批</a></button><button onclick="no()"  style="background-color: #FF9900;"><a title="好色哦，我都不看这些的" href="javascript:void()" style="color: #000000;">不，我不老</a></button>
+    </div>
+    <script>
+        function yes(){
+            //window.location.href="/lsp";
+            window.open("/lsp.html"); 
+        };
+        function no(){
+            //window.location.href="/";
+            window.open("/"); 
+        };
+    </script>
+</body>
+
+</html>
